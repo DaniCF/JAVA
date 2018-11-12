@@ -1,0 +1,14 @@
+package com.daniel;
+
+public class GeneralKenobi {
+
+	public static void main(String[] args) {
+		
+		String texto;
+		texto="Hello there";
+		
+		System.out.println(texto);
+
+	}
+
+}

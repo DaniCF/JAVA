@@ -1,0 +1,17 @@
+package com.daniel;
+
+import com.daniel.models.Usuario;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Usuario kenobi = new Usuario();
+		kenobi.nombre = "Obi";
+		kenobi.apellido = "Juan";
+		
+		System.out.println(kenobi.nombre + " " + kenobi.apellido);
+
+	}
+
+}

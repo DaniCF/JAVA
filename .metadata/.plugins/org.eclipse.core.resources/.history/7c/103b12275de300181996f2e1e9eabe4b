@@ -1,0 +1,9 @@
+package com.daniel.models;
+
+public class Direccion {
+	
+	public String calle;
+	public int numero;
+	public String ciudad;
+	
+}

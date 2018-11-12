@@ -1,0 +1,41 @@
+package com.daniel;
+
+import javax.swing.plaf.synth.SynthSeparatorUI;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		String[] meses = new String[12];
+		int hex = 1;
+		String[] mascotas = new String[hex];
+		
+		meses[0]="Ene";
+		meses[1]="Feb";
+		meses[2]="Mar";
+		meses[3]="Abr";
+		meses[4]="May";
+		meses[5]="Jun";
+		meses[6]="Jul";
+		meses[7]="Ago";
+		meses[8]="Sep";
+		meses[9]="Oct";
+		meses[10]="Nov";
+		meses[11]="Dic";
+		
+		for (int i = 0; i < meses.length; i++) {
+			System.out.println("El mes " + (i+1) + " es " + meses[i]);
+		}
+		
+		for (String unMes : meses) {
+			System.out.println("Un mes: " + unMes);
+		}
+		
+		while (hex < 100) {
+			mascotas[hex] = "XxxSniper"+hex+"xxX";
+			System.out.println("La mascota " + hex + " se llama " + mascotas[hex]);
+			
+		}
+
+	}
+
+}

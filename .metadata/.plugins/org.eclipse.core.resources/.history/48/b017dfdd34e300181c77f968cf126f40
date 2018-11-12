@@ -1,0 +1,16 @@
+package com.daniel;
+
+public class GeneralKenobi {
+
+	public static void main(String[] args) {
+		
+		String texto;
+		String texto2;
+		texto="Hello there";
+		texto2="General Kenobi"
+		
+		System.out.println(texto + " " + texto2);
+
+	}
+
+}
